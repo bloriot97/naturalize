@@ -18,6 +18,7 @@ import codemining.java.tokenizers.JavaWidthAnnotatedWhitespaceTokenizer;
 import codemining.languagetools.FormattingTokenizer;
 import codemining.languagetools.IFormattingTokenizer;
 import codemining.languagetools.Scope;
+import codemining.languagetools.ITokenizer.FullToken;
 import codemining.lm.ngram.AbstractNGramLM;
 import codemining.lm.ngram.NGram;
 import codemining.lm.ngram.NGramLM;
@@ -177,6 +178,15 @@ public class FormattingRenamings implements INGramIdentifierRenamer {
 	 */
 	public List<String> tokenizeCode(final char[] code) {
 		final List<String> tokens = tokenizer.tokenListFromCode(code);
+		return tokens;
+	}
+	
+	/**
+	 * @param code
+	 * @return
+	 */
+	public List<FullToken> getTokenizeCode(final char[] code) {
+		final List<FullToken> tokens = tokenizer.getTokenListFromCode(code);
 		return tokens;
 	}
 }

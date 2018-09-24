@@ -87,9 +87,9 @@ public class CodeReviewAssistant {
 
 		final CommandLine parse;
 		try {
-			parse = parser.parse(options, args);
+			parse = parser .parse(options, args);
 		} catch (final ParseException ex) {
-			System.err.println(ex.getMessage());
+			System. err .println(ex.getMessage());
 			final HelpFormatter formatter = new HelpFormatter();
 			formatter.printHelp("styleprofile FILE1, FILE2, ...", options);
 			return;

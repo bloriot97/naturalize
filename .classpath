@@ -37,8 +37,8 @@
   <classpathentry kind="var" path="M2_REPO/codemining/deps/pydev.shared_core/1.0/pydev.shared_core-1.0.jar"/>
   <classpathentry kind="var" path="M2_REPO/com/google/code/gson/gson/2.3/gson-2.3.jar" sourcepath="M2_REPO/com/google/code/gson/gson/2.3/gson-2.3-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/cc/mallet/mallet/2.0.7/mallet-2.0.7.jar" sourcepath="M2_REPO/cc/mallet/mallet/2.0.7/mallet-2.0.7-sources.jar"/>
-  <classpathentry kind="var" path="M2_REPO/junit/junit/4.10/junit-4.10.jar"/>
-  <classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/4.10/junit-4.10.jar" sourcepath="M2_REPO/junit/junit/4.10/junit-4.10-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar" sourcepath="M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar"/>
   <classpathentry kind="var" path="M2_REPO/jgrapht/jgrapht/0.6.0/jgrapht-0.6.0.jar"/>
   <classpathentry kind="var" path="M2_REPO/net/sf/jwordnet/jwnl/1.4_rc3/jwnl-1.4_rc3.jar" sourcepath="M2_REPO/net/sf/jwordnet/jwnl/1.4_rc3/jwnl-1.4_rc3-sources.jar"/>
