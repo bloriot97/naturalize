@@ -137,7 +137,11 @@ public class FormattingReviewAssistant {
 		int lineStart = 0;
 		int renamingCount = 0;
 		while (lineStart < testSourceFile.length()) {
-			final int lineEnd = testSourceFile.indexOf("\n", lineStart);
+			int lineEnd = testSourceFile.indexOf("\n", lineStart);
+			// Fixed last line issue (issue_loriot.01)
+			if ( lineEnd == -1 ) {
+				lineEnd = testSourceFile.length() - 1;
+			}
 			System.out.print(testSourceFile.substring(lineStart, lineEnd + 1));
 			final SortedMap<Integer, SortedSet<Renaming>> lineRenamings = positionedRenamings
 					.subMap(lineStart, lineEnd + 1);

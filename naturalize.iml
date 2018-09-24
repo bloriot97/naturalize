@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <varelement var="file://$M2_REPO$/com/google/guava/guava/18.0/guava-18.0.jar" value="M2_REPO/com/google/guava/guava/18.0/guava-18.0.jar" />
+    <varelement var="file://$M2_REPO$/com/google/guava/guava/18.0/guava-18.0-sources.jar" kind="src:" value="M2_REPO/com/google/guava/guava/18.0/guava-18.0-sources.jar" />
+    <varelement var="file://$M2_REPO$/codemining/codemining-utils/1.1-SNAPSHOT/codemining-utils-1.1-SNAPSHOT.jar" value="M2_REPO/codemining/codemining-utils/1.1-SNAPSHOT/codemining-utils-1.1-SNAPSHOT.jar" />
+    <varelement var="file://$M2_REPO$/com/esotericsoftware/kryo/3.0.0/kryo-3.0.0.jar" value="M2_REPO/com/esotericsoftware/kryo/3.0.0/kryo-3.0.0.jar" />
+    <varelement var="file://$M2_REPO$/com/esotericsoftware/kryo/3.0.0/kryo-3.0.0-sources.jar" kind="src:" value="M2_REPO/com/esotericsoftware/kryo/3.0.0/kryo-3.0.0-sources.jar" />
+    <varelement var="file://$M2_REPO$/com/esotericsoftware/reflectasm/1.10.0/reflectasm-1.10.0.jar" value="M2_REPO/com/esotericsoftware/reflectasm/1.10.0/reflectasm-1.10.0.jar" />
+    <varelement var="file://$M2_REPO$/com/esotericsoftware/reflectasm/1.10.0/reflectasm-1.10.0-sources.jar" kind="src:" value="M2_REPO/com/esotericsoftware/reflectasm/1.10.0/reflectasm-1.10.0-sources.jar" />
+    <varelement var="file://$M2_REPO$/org/ow2/asm/asm/4.2/asm-4.2.jar" value="M2_REPO/org/ow2/asm/asm/4.2/asm-4.2.jar" />
+    <varelement var="file://$M2_REPO$/org/ow2/asm/asm/4.2/asm-4.2-sources.jar" kind="src:" value="M2_REPO/org/ow2/asm/asm/4.2/asm-4.2-sources.jar" />
+    <varelement var="file://$M2_REPO$/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0.jar" value="M2_REPO/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0.jar" />
+    <varelement var="file://$M2_REPO$/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0-sources.jar" kind="src:" value="M2_REPO/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0-sources.jar" />
+    <varelement var="file://$M2_REPO$/org/objenesis/objenesis/2.1/objenesis-2.1.jar" value="M2_REPO/org/objenesis/objenesis/2.1/objenesis-2.1.jar" />
+    <varelement var="file://$M2_REPO$/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar" kind="src:" value="M2_REPO/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar" />
+    <varelement var="file://$M2_REPO$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" value="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" />
+    <varelement var="file://$M2_REPO$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar" kind="src:" value="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar" />
+    <varelement var="file://$M2_REPO$/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar" value="M2_REPO/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar" />
+    <varelement var="file://$M2_REPO$/commons-io/commons-io/2.0.1/commons-io-2.0.1-sources.jar" kind="src:" value="M2_REPO/commons-io/commons-io/2.0.1/commons-io-2.0.1-sources.jar" />
+    <varelement var="file://$M2_REPO$/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar" value="M2_REPO/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar" />
+    <varelement var="file://$M2_REPO$/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar" kind="src:" value="M2_REPO/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar" />
+    <varelement var="file://$M2_REPO$/codemining/codemining-sequencelm/1.1-SNAPSHOT/codemining-sequencelm-1.1-SNAPSHOT.jar" value="M2_REPO/codemining/codemining-sequencelm/1.1-SNAPSHOT/codemining-sequencelm-1.1-SNAPSHOT.jar" />
+    <varelement var="file://$M2_REPO$/codemining/codemining-core/1.1-SNAPSHOT/codemining-core-1.1-SNAPSHOT.jar" value="M2_REPO/codemining/codemining-core/1.1-SNAPSHOT/codemining-core-1.1-SNAPSHOT.jar" />
+    <varelement var="file://$M2_REPO$/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar" value="M2_REPO/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar" />
+    <varelement var="file://$M2_REPO$/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar" kind="src:" value="M2_REPO/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/tycho/org.eclipse.jdt.core/3.10.0.v20140604-1726/org.eclipse.jdt.core-3.10.0.v20140604-1726.jar" value="M2_REPO/org/eclipse/tycho/org.eclipse.jdt.core/3.10.0.v20140604-1726/org.eclipse.jdt.core-3.10.0.v20140604-1726.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/tycho/org.eclipse.jdt.core/3.10.0.v20140604-1726/org.eclipse.jdt.core-3.10.0.v20140604-1726-sources.jar" kind="src:" value="M2_REPO/org/eclipse/tycho/org.eclipse.jdt.core/3.10.0.v20140604-1726/org.eclipse.jdt.core-3.10.0.v20140604-1726-sources.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.core.contenttype/3.4.200.v20130326-1255/org.eclipse.core.contenttype-3.4.200.v20130326-1255.jar" value="M2_REPO/org/eclipse/birt/runtime/org.eclipse.core.contenttype/3.4.200.v20130326-1255/org.eclipse.core.contenttype-3.4.200.v20130326-1255.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.core.contenttype/3.4.200.v20130326-1255/org.eclipse.core.contenttype-3.4.200.v20130326-1255-sources.jar" kind="src:" value="M2_REPO/org/eclipse/birt/runtime/org.eclipse.core.contenttype/3.4.200.v20130326-1255/org.eclipse.core.contenttype-3.4.200.v20130326-1255-sources.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.core.jobs/3.5.300.v20130429-1813/org.eclipse.core.jobs-3.5.300.v20130429-1813.jar" value="M2_REPO/org/eclipse/birt/runtime/org.eclipse.core.jobs/3.5.300.v20130429-1813/org.eclipse.core.jobs-3.5.300.v20130429-1813.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.core.jobs/3.5.300.v20130429-1813/org.eclipse.core.jobs-3.5.300.v20130429-1813-sources.jar" kind="src:" value="M2_REPO/org/eclipse/birt/runtime/org.eclipse.core.jobs/3.5.300.v20130429-1813/org.eclipse.core.jobs-3.5.300.v20130429-1813-sources.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.core.resources/3.8.101.v20130717-0806/org.eclipse.core.resources-3.8.101.v20130717-0806.jar" value="M2_REPO/org/eclipse/birt/runtime/org.eclipse.core.resources/3.8.101.v20130717-0806/org.eclipse.core.resources-3.8.101.v20130717-0806.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.core.resources/3.8.101.v20130717-0806/org.eclipse.core.resources-3.8.101.v20130717-0806-sources.jar" kind="src:" value="M2_REPO/org/eclipse/birt/runtime/org.eclipse.core.resources/3.8.101.v20130717-0806/org.eclipse.core.resources-3.8.101.v20130717-0806-sources.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.core.runtime/3.9.0.v20130326-1255/org.eclipse.core.runtime-3.9.0.v20130326-1255.jar" value="M2_REPO/org/eclipse/birt/runtime/org.eclipse.core.runtime/3.9.0.v20130326-1255/org.eclipse.core.runtime-3.9.0.v20130326-1255.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.core.runtime/3.9.0.v20130326-1255/org.eclipse.core.runtime-3.9.0.v20130326-1255-sources.jar" kind="src:" value="M2_REPO/org/eclipse/birt/runtime/org.eclipse.core.runtime/3.9.0.v20130326-1255/org.eclipse.core.runtime-3.9.0.v20130326-1255-sources.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.equinox.common/3.6.200.v20130402-1505/org.eclipse.equinox.common-3.6.200.v20130402-1505.jar" value="M2_REPO/org/eclipse/birt/runtime/org.eclipse.equinox.common/3.6.200.v20130402-1505/org.eclipse.equinox.common-3.6.200.v20130402-1505.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.equinox.common/3.6.200.v20130402-1505/org.eclipse.equinox.common-3.6.200.v20130402-1505-sources.jar" kind="src:" value="M2_REPO/org/eclipse/birt/runtime/org.eclipse.equinox.common/3.6.200.v20130402-1505/org.eclipse.equinox.common-3.6.200.v20130402-1505-sources.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.equinox.preferences/3.5.100.v20130422-1538/org.eclipse.equinox.preferences-3.5.100.v20130422-1538.jar" value="M2_REPO/org/eclipse/birt/runtime/org.eclipse.equinox.preferences/3.5.100.v20130422-1538/org.eclipse.equinox.preferences-3.5.100.v20130422-1538.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.equinox.preferences/3.5.100.v20130422-1538/org.eclipse.equinox.preferences-3.5.100.v20130422-1538-sources.jar" kind="src:" value="M2_REPO/org/eclipse/birt/runtime/org.eclipse.equinox.preferences/3.5.100.v20130422-1538/org.eclipse.equinox.preferences-3.5.100.v20130422-1538-sources.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.equinox.registry/3.5.301.v20130717-1549/org.eclipse.equinox.registry-3.5.301.v20130717-1549.jar" value="M2_REPO/org/eclipse/birt/runtime/org.eclipse.equinox.registry/3.5.301.v20130717-1549/org.eclipse.equinox.registry-3.5.301.v20130717-1549.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.equinox.registry/3.5.301.v20130717-1549/org.eclipse.equinox.registry-3.5.301.v20130717-1549-sources.jar" kind="src:" value="M2_REPO/org/eclipse/birt/runtime/org.eclipse.equinox.registry/3.5.301.v20130717-1549/org.eclipse.equinox.registry-3.5.301.v20130717-1549-sources.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.osgi/3.9.1.v20130814-1242/org.eclipse.osgi-3.9.1.v20130814-1242.jar" value="M2_REPO/org/eclipse/birt/runtime/org.eclipse.osgi/3.9.1.v20130814-1242/org.eclipse.osgi-3.9.1.v20130814-1242.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.osgi/3.9.1.v20130814-1242/org.eclipse.osgi-3.9.1.v20130814-1242-sources.jar" kind="src:" value="M2_REPO/org/eclipse/birt/runtime/org.eclipse.osgi/3.9.1.v20130814-1242/org.eclipse.osgi-3.9.1.v20130814-1242-sources.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/text/org.eclipse.text/3.5.101/org.eclipse.text-3.5.101.jar" value="M2_REPO/org/eclipse/text/org.eclipse.text/3.5.101/org.eclipse.text-3.5.101.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/text/org.eclipse.text/3.5.101/org.eclipse.text-3.5.101-sources.jar" kind="src:" value="M2_REPO/org/eclipse/text/org.eclipse.text/3.5.101/org.eclipse.text-3.5.101-sources.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/core/org.eclipse.core.commands/3.6.0/org.eclipse.core.commands-3.6.0.jar" value="M2_REPO/org/eclipse/core/org.eclipse.core.commands/3.6.0/org.eclipse.core.commands-3.6.0.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/core/org.eclipse.core.commands/3.6.0/org.eclipse.core.commands-3.6.0-sources.jar" kind="src:" value="M2_REPO/org/eclipse/core/org.eclipse.core.commands/3.6.0/org.eclipse.core.commands-3.6.0-sources.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/equinox/org.eclipse.equinox.common/3.6.0/org.eclipse.equinox.common-3.6.0.jar" value="M2_REPO/org/eclipse/equinox/org.eclipse.equinox.common/3.6.0/org.eclipse.equinox.common-3.6.0.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/equinox/org.eclipse.equinox.common/3.6.0/org.eclipse.equinox.common-3.6.0-sources.jar" kind="src:" value="M2_REPO/org/eclipse/equinox/org.eclipse.equinox.common/3.6.0/org.eclipse.equinox.common-3.6.0-sources.jar" />
+    <varelement var="file://$M2_REPO$/codemining/deps/org.eclipse.cdt.core/1.0/org.eclipse.cdt.core-1.0.jar" value="M2_REPO/codemining/deps/org.eclipse.cdt.core/1.0/org.eclipse.cdt.core-1.0.jar" />
+    <varelement var="file://$M2_REPO$/codemining/deps/org.eclipse.wst.jsdt.core/1.0/org.eclipse.wst.jsdt.core-1.0.jar" value="M2_REPO/codemining/deps/org.eclipse.wst.jsdt.core/1.0/org.eclipse.wst.jsdt.core-1.0.jar" />
+    <varelement var="file://$M2_REPO$/codemining/deps/com.threecrickets.jygments/1.0/com.threecrickets.jygments-1.0.jar" value="M2_REPO/codemining/deps/com.threecrickets.jygments/1.0/com.threecrickets.jygments-1.0.jar" />
+    <varelement var="file://$M2_REPO$/codemining/deps/pydev.core/1.0/pydev.core-1.0.jar" value="M2_REPO/codemining/deps/pydev.core/1.0/pydev.core-1.0.jar" />
+    <varelement var="file://$M2_REPO$/codemining/deps/pydev.parser/1.0/pydev.parser-1.0.jar" value="M2_REPO/codemining/deps/pydev.parser/1.0/pydev.parser-1.0.jar" />
+    <varelement var="file://$M2_REPO$/codemining/deps/pydev.shared_core/1.0/pydev.shared_core-1.0.jar" value="M2_REPO/codemining/deps/pydev.shared_core/1.0/pydev.shared_core-1.0.jar" />
+    <varelement var="file://$M2_REPO$/com/google/code/gson/gson/2.3/gson-2.3.jar" value="M2_REPO/com/google/code/gson/gson/2.3/gson-2.3.jar" />
+    <varelement var="file://$M2_REPO$/com/google/code/gson/gson/2.3/gson-2.3-sources.jar" kind="src:" value="M2_REPO/com/google/code/gson/gson/2.3/gson-2.3-sources.jar" />
+    <varelement var="file://$M2_REPO$/cc/mallet/mallet/2.0.7/mallet-2.0.7.jar" value="M2_REPO/cc/mallet/mallet/2.0.7/mallet-2.0.7.jar" />
+    <varelement var="file://$M2_REPO$/cc/mallet/mallet/2.0.7/mallet-2.0.7-sources.jar" kind="src:" value="M2_REPO/cc/mallet/mallet/2.0.7/mallet-2.0.7-sources.jar" />
+    <varelement var="file://$M2_REPO$/junit/junit/4.10/junit-4.10.jar" value="M2_REPO/junit/junit/4.10/junit-4.10.jar" />
+    <varelement var="file://$M2_REPO$/junit/junit/4.10/junit-4.10-sources.jar" kind="src:" value="M2_REPO/junit/junit/4.10/junit-4.10-sources.jar" />
+    <varelement var="file://$M2_REPO$/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar" value="M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar" />
+    <varelement var="file://$M2_REPO$/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar" kind="src:" value="M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar" />
+    <varelement var="file://$M2_REPO$/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar" value="M2_REPO/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar" />
+    <varelement var="file://$M2_REPO$/jgrapht/jgrapht/0.6.0/jgrapht-0.6.0.jar" value="M2_REPO/jgrapht/jgrapht/0.6.0/jgrapht-0.6.0.jar" />
+    <varelement var="file://$M2_REPO$/net/sf/jwordnet/jwnl/1.4_rc3/jwnl-1.4_rc3.jar" value="M2_REPO/net/sf/jwordnet/jwnl/1.4_rc3/jwnl-1.4_rc3.jar" />
+    <varelement var="file://$M2_REPO$/net/sf/jwordnet/jwnl/1.4_rc3/jwnl-1.4_rc3-sources.jar" kind="src:" value="M2_REPO/net/sf/jwordnet/jwnl/1.4_rc3/jwnl-1.4_rc3-sources.jar" />
+    <varelement var="file://$M2_REPO$/net/sf/trove4j/trove4j/2.0.2/trove4j-2.0.2.jar" value="M2_REPO/net/sf/trove4j/trove4j/2.0.2/trove4j-2.0.2.jar" />
+    <varelement var="file://$M2_REPO$/net/sf/trove4j/trove4j/2.0.2/trove4j-2.0.2-sources.jar" kind="src:" value="M2_REPO/net/sf/trove4j/trove4j/2.0.2/trove4j-2.0.2-sources.jar" />
+    <varelement var="file://$M2_REPO$/com/googlecode/matrix-toolkits-java/mtj/0.9.14/mtj-0.9.14.jar" value="M2_REPO/com/googlecode/matrix-toolkits-java/mtj/0.9.14/mtj-0.9.14.jar" />
+    <varelement var="file://$M2_REPO$/com/googlecode/matrix-toolkits-java/mtj/0.9.14/mtj-0.9.14-sources.jar" kind="src:" value="M2_REPO/com/googlecode/matrix-toolkits-java/mtj/0.9.14/mtj-0.9.14-sources.jar" />
+    <varelement var="file://$M2_REPO$/com/googlecode/netlib-java/netlib-java/0.9.3/netlib-java-0.9.3.jar" value="M2_REPO/com/googlecode/netlib-java/netlib-java/0.9.3/netlib-java-0.9.3.jar" />
+    <varelement var="file://$M2_REPO$/com/googlecode/netlib-java/netlib-java/0.9.3/netlib-java-0.9.3-sources.jar" kind="src:" value="M2_REPO/com/googlecode/netlib-java/netlib-java/0.9.3/netlib-java-0.9.3-sources.jar" />
+    <varelement var="file://$M2_REPO$/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar" value="M2_REPO/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar" />
+    <varelement var="file://$M2_REPO$/org/jdom/jdom/1.1/jdom-1.1.jar" value="M2_REPO/org/jdom/jdom/1.1/jdom-1.1.jar" />
+    <varelement var="file://$M2_REPO$/org/jdom/jdom/1.1/jdom-1.1-sources.jar" kind="src:" value="M2_REPO/org/jdom/jdom/1.1/jdom-1.1-sources.jar" />
+    <varelement var="file://$M2_REPO$/codemining/commitmining-tools/1.1-SNAPSHOT/commitmining-tools-1.1-SNAPSHOT.jar" value="M2_REPO/codemining/commitmining-tools/1.1-SNAPSHOT/commitmining-tools-1.1-SNAPSHOT.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/jgit/org.eclipse.jgit/3.5.1.201410131835-r/org.eclipse.jgit-3.5.1.201410131835-r.jar" value="M2_REPO/org/eclipse/jgit/org.eclipse.jgit/3.5.1.201410131835-r/org.eclipse.jgit-3.5.1.201410131835-r.jar" />
+    <varelement var="file://$M2_REPO$/org/eclipse/jgit/org.eclipse.jgit/3.5.1.201410131835-r/org.eclipse.jgit-3.5.1.201410131835-r-sources.jar" kind="src:" value="M2_REPO/org/eclipse/jgit/org.eclipse.jgit/3.5.1.201410131835-r/org.eclipse.jgit-3.5.1.201410131835-r-sources.jar" />
+    <varelement var="file://$M2_REPO$/com/jcraft/jsch/0.1.50/jsch-0.1.50.jar" value="M2_REPO/com/jcraft/jsch/0.1.50/jsch-0.1.50.jar" />
+    <varelement var="file://$M2_REPO$/com/jcraft/jsch/0.1.50/jsch-0.1.50-sources.jar" kind="src:" value="M2_REPO/com/jcraft/jsch/0.1.50/jsch-0.1.50-sources.jar" />
+    <varelement var="file://$M2_REPO$/com/googlecode/javaewah/JavaEWAH/0.7.9/JavaEWAH-0.7.9.jar" value="M2_REPO/com/googlecode/javaewah/JavaEWAH/0.7.9/JavaEWAH-0.7.9.jar" />
+    <varelement var="file://$M2_REPO$/com/googlecode/javaewah/JavaEWAH/0.7.9/JavaEWAH-0.7.9-sources.jar" kind="src:" value="M2_REPO/com/googlecode/javaewah/JavaEWAH/0.7.9/JavaEWAH-0.7.9-sources.jar" />
+    <varelement var="file://$M2_REPO$/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.jar" value="M2_REPO/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.jar" />
+    <varelement var="file://$M2_REPO$/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3-sources.jar" kind="src:" value="M2_REPO/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3-sources.jar" />
+    <varelement var="file://$M2_REPO$/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.jar" value="M2_REPO/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.jar" />
+    <varelement var="file://$M2_REPO$/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4-sources.jar" kind="src:" value="M2_REPO/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4-sources.jar" />
+    <varelement var="file://$M2_REPO$/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" value="M2_REPO/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
+    <varelement var="file://$M2_REPO$/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar" kind="src:" value="M2_REPO/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar" />
+    <varelement var="file://$M2_REPO$/commons-cli/commons-cli/1.2/commons-cli-1.2.jar" value="M2_REPO/commons-cli/commons-cli/1.2/commons-cli-1.2.jar" />
+    <varelement var="file://$M2_REPO$/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar" kind="src:" value="M2_REPO/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar" />
+    <varelement var="file://$M2_REPO$/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar" value="M2_REPO/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar" />
+    <varelement var="file://$M2_REPO$/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar" kind="src:" value="M2_REPO/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src/test/java" expected_position="0" />
+      <src_folder value="file://$MODULE_DIR$/src/main/java" expected_position="1" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="jdk" jdkName="JavaSE-1.8" jdkType="JavaSDK" />
+    <orderEntry type="module-library">
+      <library name="guava-18.0.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/com/google/guava/guava/18.0/guava-18.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/com/google/guava/guava/18.0/guava-18.0-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="codemining-utils-1.1-SNAPSHOT.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/codemining/codemining-utils/1.1-SNAPSHOT/codemining-utils-1.1-SNAPSHOT.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="kryo-3.0.0.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/com/esotericsoftware/kryo/3.0.0/kryo-3.0.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/com/esotericsoftware/kryo/3.0.0/kryo-3.0.0-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="reflectasm-1.10.0.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/com/esotericsoftware/reflectasm/1.10.0/reflectasm-1.10.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/com/esotericsoftware/reflectasm/1.10.0/reflectasm-1.10.0-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="asm-4.2.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/ow2/asm/asm/4.2/asm-4.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/org/ow2/asm/asm/4.2/asm-4.2-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="minlog-1.3.0.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="objenesis-2.1.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/objenesis/objenesis/2.1/objenesis-2.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-lang-2.6.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-io-2.0.1.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/commons-io/commons-io/2.0.1/commons-io-2.0.1-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-collections-3.2.2.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="codemining-sequencelm-1.1-SNAPSHOT.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/codemining/codemining-sequencelm/1.1-SNAPSHOT/codemining-sequencelm-1.1-SNAPSHOT.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="codemining-core-1.1-SNAPSHOT.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/codemining/codemining-core/1.1-SNAPSHOT/codemining-core-1.1-SNAPSHOT.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-logging-1.1.3.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.jdt.core-3.10.0.v20140604-1726.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/eclipse/tycho/org.eclipse.jdt.core/3.10.0.v20140604-1726/org.eclipse.jdt.core-3.10.0.v20140604-1726.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/org/eclipse/tycho/org.eclipse.jdt.core/3.10.0.v20140604-1726/org.eclipse.jdt.core-3.10.0.v20140604-1726-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.core.contenttype-3.4.200.v20130326-1255.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.core.contenttype/3.4.200.v20130326-1255/org.eclipse.core.contenttype-3.4.200.v20130326-1255.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.core.contenttype/3.4.200.v20130326-1255/org.eclipse.core.contenttype-3.4.200.v20130326-1255-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.core.jobs-3.5.300.v20130429-1813.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.core.jobs/3.5.300.v20130429-1813/org.eclipse.core.jobs-3.5.300.v20130429-1813.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.core.jobs/3.5.300.v20130429-1813/org.eclipse.core.jobs-3.5.300.v20130429-1813-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.core.resources-3.8.101.v20130717-0806.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.core.resources/3.8.101.v20130717-0806/org.eclipse.core.resources-3.8.101.v20130717-0806.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.core.resources/3.8.101.v20130717-0806/org.eclipse.core.resources-3.8.101.v20130717-0806-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.core.runtime-3.9.0.v20130326-1255.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.core.runtime/3.9.0.v20130326-1255/org.eclipse.core.runtime-3.9.0.v20130326-1255.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.core.runtime/3.9.0.v20130326-1255/org.eclipse.core.runtime-3.9.0.v20130326-1255-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.equinox.common-3.6.200.v20130402-1505.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.equinox.common/3.6.200.v20130402-1505/org.eclipse.equinox.common-3.6.200.v20130402-1505.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.equinox.common/3.6.200.v20130402-1505/org.eclipse.equinox.common-3.6.200.v20130402-1505-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.equinox.preferences-3.5.100.v20130422-1538.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.equinox.preferences/3.5.100.v20130422-1538/org.eclipse.equinox.preferences-3.5.100.v20130422-1538.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.equinox.preferences/3.5.100.v20130422-1538/org.eclipse.equinox.preferences-3.5.100.v20130422-1538-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.equinox.registry-3.5.301.v20130717-1549.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.equinox.registry/3.5.301.v20130717-1549/org.eclipse.equinox.registry-3.5.301.v20130717-1549.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.equinox.registry/3.5.301.v20130717-1549/org.eclipse.equinox.registry-3.5.301.v20130717-1549-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.osgi-3.9.1.v20130814-1242.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.osgi/3.9.1.v20130814-1242/org.eclipse.osgi-3.9.1.v20130814-1242.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/org/eclipse/birt/runtime/org.eclipse.osgi/3.9.1.v20130814-1242/org.eclipse.osgi-3.9.1.v20130814-1242-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.text-3.5.101.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/eclipse/text/org.eclipse.text/3.5.101/org.eclipse.text-3.5.101.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/org/eclipse/text/org.eclipse.text/3.5.101/org.eclipse.text-3.5.101-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.core.commands-3.6.0.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/eclipse/core/org.eclipse.core.commands/3.6.0/org.eclipse.core.commands-3.6.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/org/eclipse/core/org.eclipse.core.commands/3.6.0/org.eclipse.core.commands-3.6.0-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.equinox.common-3.6.0.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/eclipse/equinox/org.eclipse.equinox.common/3.6.0/org.eclipse.equinox.common-3.6.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/org/eclipse/equinox/org.eclipse.equinox.common/3.6.0/org.eclipse.equinox.common-3.6.0-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.cdt.core-1.0.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/codemining/deps/org.eclipse.cdt.core/1.0/org.eclipse.cdt.core-1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.wst.jsdt.core-1.0.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/codemining/deps/org.eclipse.wst.jsdt.core/1.0/org.eclipse.wst.jsdt.core-1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="com.threecrickets.jygments-1.0.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/codemining/deps/com.threecrickets.jygments/1.0/com.threecrickets.jygments-1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pydev.core-1.0.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/codemining/deps/pydev.core/1.0/pydev.core-1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pydev.parser-1.0.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/codemining/deps/pydev.parser/1.0/pydev.parser-1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pydev.shared_core-1.0.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/codemining/deps/pydev.shared_core/1.0/pydev.shared_core-1.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="gson-2.3.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/com/google/code/gson/gson/2.3/gson-2.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/com/google/code/gson/gson/2.3/gson-2.3-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mallet-2.0.7.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/cc/mallet/mallet/2.0.7/mallet-2.0.7.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/cc/mallet/mallet/2.0.7/mallet-2.0.7-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="junit-4.10.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/junit/junit/4.10/junit-4.10.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/junit/junit/4.10/junit-4.10-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hamcrest-core-1.1.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bsh-2.0b4.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jgrapht-0.6.0.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/jgrapht/jgrapht/0.6.0/jgrapht-0.6.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jwnl-1.4_rc3.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/net/sf/jwordnet/jwnl/1.4_rc3/jwnl-1.4_rc3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/net/sf/jwordnet/jwnl/1.4_rc3/jwnl-1.4_rc3-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="trove4j-2.0.2.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/net/sf/trove4j/trove4j/2.0.2/trove4j-2.0.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/net/sf/trove4j/trove4j/2.0.2/trove4j-2.0.2-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mtj-0.9.14.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/com/googlecode/matrix-toolkits-java/mtj/0.9.14/mtj-0.9.14.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/com/googlecode/matrix-toolkits-java/mtj/0.9.14/mtj-0.9.14-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="netlib-java-0.9.3.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/com/googlecode/netlib-java/netlib-java/0.9.3/netlib-java-0.9.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/com/googlecode/netlib-java/netlib-java/0.9.3/netlib-java-0.9.3-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="arpack_combined_all-0.1.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jdom-1.1.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/jdom/jdom/1.1/jdom-1.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/org/jdom/jdom/1.1/jdom-1.1-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commitmining-tools-1.1-SNAPSHOT.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/codemining/commitmining-tools/1.1-SNAPSHOT/commitmining-tools-1.1-SNAPSHOT.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.eclipse.jgit-3.5.1.201410131835-r.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/eclipse/jgit/org.eclipse.jgit/3.5.1.201410131835-r/org.eclipse.jgit-3.5.1.201410131835-r.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/org/eclipse/jgit/org.eclipse.jgit/3.5.1.201410131835-r/org.eclipse.jgit-3.5.1.201410131835-r-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jsch-0.1.50.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/com/jcraft/jsch/0.1.50/jsch-0.1.50.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/com/jcraft/jsch/0.1.50/jsch-0.1.50-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JavaEWAH-0.7.9.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/com/googlecode/javaewah/JavaEWAH/0.7.9/JavaEWAH-0.7.9.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/com/googlecode/javaewah/JavaEWAH/0.7.9/JavaEWAH-0.7.9-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="httpclient-4.1.3.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/org/apache/httpcomponents/httpclient/4.1.3/httpclient-4.1.3-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="httpcore-4.1.4.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/org/apache/httpcomponents/httpcore/4.1.4/httpcore-4.1.4-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-codec-1.4.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-cli-1.2.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/commons-cli/commons-cli/1.2/commons-cli-1.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-math3-3.2.jar">
+        <CLASSES>
+          <root url="file://$M2_REPO$/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$M2_REPO$/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

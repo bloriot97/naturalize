@@ -1,0 +1,2 @@
+Loaded default properties at Mon Sep 10 10:26:37 CEST 2018
+AutoFormatting.confidenceThreshold=10.0
